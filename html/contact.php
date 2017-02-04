@@ -103,10 +103,10 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
                     <li>
                         <a href="whyus.html">Why Us?</a>
                     </li>
-		    <li>
-			<a href="gallery.php">Gallery</a>
-		    </li>
-                    <li>
+		            <!-- <li>
+                        <a href="gallery.php">Gallery</a>
+                    </li> -->
+			        <li>
                         <a href="contact.php">Contact</a>
                     </li>
                 </ul>
