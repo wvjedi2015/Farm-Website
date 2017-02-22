@@ -103,9 +103,9 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
                     <li>
                         <a href="whyus.html">Why Us?</a>
                     </li>
-		            <!-- <li>
-                        <a href="gallery.php">Gallery</a>
-                    </li> -->
+		            < <li>
+                        <a href="CurrentProducts.html">Available for Purchase</a>
+                    </li>
 			        <li>
                         <a href="contact.php">Contact</a>
                     </li>
@@ -148,7 +148,7 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
             </div>
         </div>
 
-        <div class="row">
+        <!--<div class="row">
             <div class="box">
                 <div class="col-lg-12">
                     <hr>

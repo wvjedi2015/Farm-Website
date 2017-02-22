@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Radabaugh Farms- Why Us?</title>
+    <title>Radabaugh Farms- High Tunnel Environment</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -30,9 +30,9 @@
 
 </head>
 
-<body>
 
-    <div class="brand"><font color="red">Radabaugh</font> Farms</div>
+<body>
+	<div class="brand"><font color="red">Radabaugh</font> Farms</div>
     <div class="address-bar">1069 Radabaugh Ridge Road | Buckhannon, WV 26201 | 304.613.3004</div>
 
     <!-- Navigation -->
@@ -70,62 +70,16 @@
         </div>
         <!-- /.container -->
     </nav>
+<p>Output from sensor:<br>
+<!-- code is html up to here -->
+<?php
+passthru("sudo /home/pi/Adafruit_Python_DHT/examples/AdafruitDHT.py 2302 4");
+?>
+<!-- now back to html -->
+<br>
+<p>Next item...</p>
 
-    <div class="container">
-
-        <div class="row">
-            <div class="box">
-                <div class="col-lg-12">
-                    <hr>
-                    <h2 class="intro-text text-center">Why
-                        <strong>Us?</strong>
-                    </h2>
-                    <hr>
-                </div>
-                <div class="col-md-6">
-                    <img class="img-responsive img-border-left" src="img/Farm-from-the-hill.jpg" alt="">
-                </div>
-                <div class="col-md-6">
-                    <p>Our Farm has been in our family since the late 1800s, we take pride in the multigenerations that are involved in all aspects.</p>
-                    <!--<p>Granite is very competitvely priced and a sketch of your counter top is all that's needed for an estimate. Quarter-inch beveled and round edges are considered standard and the price increases with more labor-intensive edges such as bullnose or ogee.</p>
-                    <p>One major advantage in choosing granite is that it wont scratch or chip with normal use. Only another piece of granite or something harder, like diamond, will leave marks. In addition, it is heat resistant, so items from the oven can be placed right on the counter without a problem.</p>
-		    <p>Like fingerprints, no two slabs of granite are ever exaclty the same. Regardless of how common a specific stone is, each application of that stone is unique and beautiful in its own context.</p> -->
-                </div>
-                <div class="clearfix"></div>
-            </div>
-        </div>
-
-        <!--<div class="row">
-            <div class="box">
-                <div class="col-lg-12">
-                    <hr>
-                    <h2 class="intro-text text-center">Superior
-                        <strong>Qualities</strong>
-                    </h2>
-                    <hr>
-                </div>
-                <div class="col-md-6">
-                    <img class="img-responsive img-border-left" src="img/edges.jpg" alt="">
-                </div>
-                <div class="col-md-6">
-                    <h4>One of a kind</h4><p>More than 3,000 colors and lots of custom edges</p>
-		    	<br>
-                    <h4>Tough</h4><p>Scratch, stain, and chip resistant</p>
-                   	<br>
-                    <h4>Low Maintenance</h4><p>Easy warm water/mild detergent cleanup</p>
-			<br>
-                    <h4>Durable</h4><p>Can last a lifetime</p>
-			<br>
-                    <h4>Hard</h4><p>Granite is one of the hardest substances on earth and can even dull your kitchen knives!</p>
-                </div>
-                <div class="clearfix"></div>
-            </div>
-        </div>
-
-    </div>
-    <!-- /.container -->
-
-    <footer>
+<footer>
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
