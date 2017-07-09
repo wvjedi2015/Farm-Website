@@ -210,7 +210,7 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <p>Copyright &copy; Radabaugh Farms 2017 provided by <a href="http://www.radabaughfarms.comn">Radabaugh Farms, LLC</a></p>
+                    <p>Copyright &copy; Radabaugh Farms 2017 provided by <a href="http://www.radabaughfarms.comn">Radabaugh Farms</a></p>
                 </div>
             </div>
         </div>
